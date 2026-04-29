@@ -425,7 +425,7 @@ footer {
   align-items: center;
   gap: 8px;
   color: #fff;
-  font-family:"Bebas Neue", "Arial Narrow", sans-serif;
+  font-family: "Bebas Neue", "Arial Narrow", sans-serif;
   letter-spacing: 0.5px;
   font-size: 20px;
   text-decoration: none;
@@ -436,6 +436,27 @@ footer {
   width: auto;
   display: block;
   border-radius: 200%;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.footer-contact-item:is(a):hover {
+  color: #fff;
 }
 
 /* ── RESPONSIVE ── */
