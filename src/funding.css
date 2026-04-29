@@ -420,6 +420,23 @@ footer {
   gap: 12px;
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-family: "Bebas Neue", "Arial Narrow", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
+  border-radius: 200%;
+}
 .footer-contact {
   display: flex;
   align-items: center;
@@ -441,7 +458,7 @@ footer {
 }
 
 .footer-contact-item:is(a):hover {
-  color: #fff;
+  color: white;
 }
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
