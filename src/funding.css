@@ -435,7 +435,7 @@ footer {
   height: 28px;
   width: 28px;
   object-fit: cover;
-  display: block;
+  display:flex;
   border-radius: 50%;
 }
 .footer-contact {
