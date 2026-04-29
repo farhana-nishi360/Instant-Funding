@@ -433,9 +433,10 @@ footer {
 
 .footer-logo-img {
   height: 28px;
-  width: auto;
+  width: 28px;
+  object-fit: cover;
   display: block;
-  border-radius: 200%;
+  border-radius: 50%;
 }
 .footer-contact {
   display: flex;
