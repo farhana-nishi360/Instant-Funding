@@ -417,25 +417,7 @@ footer {
   font-size: 13px;
   color: var(--muted);
   flex-wrap: wrap;
-  gap: 10px;
-}
-
-.footer-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: #fff;
-  font-family: "Bebas Neue", "Arial Narrow", sans-serif;
-  letter-spacing: 0.5px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.footer-logo-img {
-  height: 28px;
-  width: auto;
-  display: block;
-  border-radius: 200%;
+  gap: 12px;
 }
 
 .footer-contact {
@@ -443,6 +425,8 @@ footer {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
 }
 
 .footer-contact-item {
@@ -452,13 +436,13 @@ footer {
   color: var(--muted);
   text-decoration: none;
   font-size: 13px;
+  white-space: nowrap;
   transition: color 0.2s;
 }
 
 .footer-contact-item:is(a):hover {
   color: #fff;
 }
-
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
   nav { 
